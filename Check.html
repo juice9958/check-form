@@ -35,7 +35,8 @@
 	window.onload = function(){
 		var re = {
 			email: /^\w+@[a-z0-9-]+(\.[a-z]{2,6}){1,2}&/,
-			tel:/^(0[1-9]\d{1,2}-)?[1-9]\d{6,7}$/
+			tel:/^(0[1-9]\d{1,2}-)?[1-9]\d{6,7}$/,
+			age:/^(1[6-9]|[2-9]\d|100)$/
 		};
 		var oForm = document.getElementById('form');
 		var oEmail = document.getElementsByName('email')[0];
